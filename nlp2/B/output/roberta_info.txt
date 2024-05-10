@@ -1,0 +1,115 @@
+======== Roberta Training and Testing ... ========
+negative, positive, neutral ids is: [2430],[1313],[7974]
+##########
+### FOLD 1
+##########
+Epoch 1/8 | train | Loss: 2.3604 | Jaccard: 0.4739
+Epoch 1/8 |  val  | Loss: 1.7010 | Jaccard: 0.4897
+Epoch 2/8 | train | Loss: 1.6311 | Jaccard: 0.5131
+Epoch 2/8 |  val  | Loss: 1.6742 | Jaccard: 0.5511
+Epoch 3/8 | train | Loss: 1.4320 | Jaccard: 0.5303
+Epoch 3/8 |  val  | Loss: 1.7089 | Jaccard: 0.5112
+Epoch 4/8 | train | Loss: 1.2666 | Jaccard: 0.5474
+Epoch 4/8 |  val  | Loss: 1.7418 | Jaccard: 0.5146
+Epoch 5/8 | train | Loss: 1.0764 | Jaccard: 0.5695
+Epoch 5/8 |  val  | Loss: 2.1214 | Jaccard: 0.5118
+Epoch 6/8 | train | Loss: 0.8859 | Jaccard: 0.5908
+Epoch 6/8 |  val  | Loss: 2.2107 | Jaccard: 0.5043
+Epoch 7/8 | train | Loss: 0.7364 | Jaccard: 0.6132
+Epoch 7/8 |  val  | Loss: 2.3339 | Jaccard: 0.5012
+Epoch 8/8 | train | Loss: 0.5873 | Jaccard: 0.6288
+Epoch 8/8 |  val  | Loss: 2.7135 | Jaccard: 0.5328
+##########
+### FOLD 2
+##########
+Epoch 1/8 | train | Loss: 2.0638 | Jaccard: 0.4930
+Epoch 1/8 |  val  | Loss: 1.7426 | Jaccard: 0.4936
+Epoch 2/8 | train | Loss: 1.6323 | Jaccard: 0.5105
+Epoch 2/8 |  val  | Loss: 1.7455 | Jaccard: 0.5004
+Epoch 3/8 | train | Loss: 1.4377 | Jaccard: 0.5291
+Epoch 3/8 |  val  | Loss: 1.7868 | Jaccard: 0.4538
+Epoch 4/8 | train | Loss: 1.4566 | Jaccard: 0.5341
+Epoch 4/8 |  val  | Loss: 1.8688 | Jaccard: 0.5448
+Epoch 5/8 | train | Loss: 1.1386 | Jaccard: 0.5608
+Epoch 5/8 |  val  | Loss: 2.0258 | Jaccard: 0.4971
+Epoch 6/8 | train | Loss: 0.9782 | Jaccard: 0.5810
+Epoch 6/8 |  val  | Loss: 2.1574 | Jaccard: 0.5114
+Epoch 7/8 | train | Loss: 0.8199 | Jaccard: 0.6024
+Epoch 7/8 |  val  | Loss: 2.5584 | Jaccard: 0.5120
+Epoch 8/8 | train | Loss: 0.6698 | Jaccard: 0.6194
+Epoch 8/8 |  val  | Loss: 2.8205 | Jaccard: 0.5240
+##########
+### FOLD 3
+##########
+Epoch 1/8 | train | Loss: 2.0734 | Jaccard: 0.4914
+Epoch 1/8 |  val  | Loss: 1.7120 | Jaccard: 0.5169
+Epoch 2/8 | train | Loss: 1.6407 | Jaccard: 0.5083
+Epoch 2/8 |  val  | Loss: 1.6773 | Jaccard: 0.5055
+Epoch 3/8 | train | Loss: 1.4829 | Jaccard: 0.5180
+Epoch 3/8 |  val  | Loss: 1.7654 | Jaccard: 0.4911
+Epoch 4/8 | train | Loss: 1.3186 | Jaccard: 0.5315
+Epoch 4/8 |  val  | Loss: 1.9103 | Jaccard: 0.5154
+Epoch 5/8 | train | Loss: 1.1437 | Jaccard: 0.5538
+Epoch 5/8 |  val  | Loss: 1.9148 | Jaccard: 0.5080
+Epoch 6/8 | train | Loss: 0.9694 | Jaccard: 0.5743
+Epoch 6/8 |  val  | Loss: 2.1834 | Jaccard: 0.5317
+Epoch 7/8 | train | Loss: 0.7889 | Jaccard: 0.5987
+Epoch 7/8 |  val  | Loss: 2.6234 | Jaccard: 0.5278
+Epoch 8/8 | train | Loss: 0.6416 | Jaccard: 0.6155
+Epoch 8/8 |  val  | Loss: 2.7420 | Jaccard: 0.5108
+          textID                                                selected_text
+1988  faee4563bd                                                     congrats
+1085  0144252776          and, yes. i <3 mac, if only it weren`t so expensive
+424   0693a85163                                       this should be boring.
+1815  59ee5ff2f9                                                           of
+432   d7746b6b68   is listening to p!nk tunage and trying to teach my cat ...
+2963  08ad89c6b0                                                        yayy.
+2437  a1b12787c2                                                 a rare treat
+980   67cafda653                i am public and can`t get anyone to follow me
+3012  9f89432794                                         missing my big girl.
+712   c9e5ca399a                                                  i miss you.
+1329  a5640db7a7   sorry jj i missed that post i`ll make sure do so next t...
+1742  242de9277c                                              good to hear...
+3443  688784c5a9   excited about this week! trying to have a productive mo...
+498   fc0b053a31          i can`t belive you only have one episode to go ****
+366   bebcdc05ad                       u welcome babe, kill the show! yuuupp!
+3182  e42d0e6e9d   i feel fine now, it was crazy 10 minute sickness sessio...
+2820  adf5be9ada                                          im working too hard
+3195  94977637ab                                       my throat really hurts
+780   eb9c11eb52   so my parents are too busy making me feel like **** to ...
+794   017a0bbb36                                                  aaaaahhhh..
+2609  052fbbb0a9                      sat alone whilst jay plays on his phone
+2955  8dc2975248                                                     its suzi
+1940  00276ae6b1         emoticons by christian. ' ' http://twitpic.com/66riq
+2232  f18ed21359                      i`m a senior. i should of been already.
+44    d3d7b13278                                                             
+
+---- Now save the train loss, val loss, train jaccard, val jaccard ----
+
+epoch, train loss, val loss, train jaccard, val jaccard
+1, 2.360, 1.701, 0.474, 0.4897445574383651
+2, 1.631, 1.674, 0.513, 0.551149765209614
+3, 1.432, 1.709, 0.530, 0.5111983255926918
+4, 1.267, 1.742, 0.547, 0.5145957394118794
+5, 1.076, 2.121, 0.569, 0.5118246508792437
+6, 0.886, 2.211, 0.591, 0.5042951016275167
+7, 0.736, 2.334, 0.613, 0.5012282680892668
+8, 0.587, 2.713, 0.629, 0.5328229770070342
+9, 2.064, 1.743, 0.493, 0.4936483484162537
+10, 1.632, 1.745, 0.511, 0.5003685893247845
+11, 1.438, 1.787, 0.529, 0.4538391177240728
+12, 1.457, 1.869, 0.534, 0.5447644077778848
+13, 1.139, 2.026, 0.561, 0.49713510118304466
+14, 0.978, 2.157, 0.581, 0.5114159539442703
+15, 0.820, 2.558, 0.602, 0.5119791967771923
+16, 0.670, 2.820, 0.619, 0.5240297558164011
+17, 2.073, 1.712, 0.491, 0.516905394654577
+18, 1.641, 1.677, 0.508, 0.5054928867657952
+19, 1.483, 1.765, 0.518, 0.4911160133479016
+20, 1.319, 1.910, 0.531, 0.5153573133928487
+21, 1.144, 1.915, 0.554, 0.5079748037060253
+22, 0.969, 2.183, 0.574, 0.5316541088763577
+23, 0.789, 2.623, 0.599, 0.5278049816886119
+24, 0.642, 2.742, 0.615, 0.5108174804993798
+
+======== End Roberta Training and Testing ========

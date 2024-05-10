@@ -1,0 +1,22 @@
+======== Bert Training and Testing ... ========
+Epoch 1/5 | train | Loss: 2.7722 | Jaccard: 0.6193
+Epoch 1/5 |  val  | Loss: 1.9383 | Jaccard: 0.6900
+Epoch 2/5 | train | Loss: 1.7605 | Jaccard: 0.7057
+Epoch 2/5 |  val  | Loss: 1.9231 | Jaccard: 0.6908
+Epoch 3/5 | train | Loss: 1.4411 | Jaccard: 0.7535
+Epoch 3/5 |  val  | Loss: 2.0711 | Jaccard: 0.6716
+Epoch 4/5 | train | Loss: 1.1137 | Jaccard: 0.8105
+Epoch 4/5 |  val  | Loss: 2.2695 | Jaccard: 0.6790
+Epoch 5/5 | train | Loss: 0.8198 | Jaccard: 0.8633
+Epoch 5/5 |  val  | Loss: 2.5808 | Jaccard: 0.6728
+
+---- Now save the train loss, val loss, train jaccard, val jaccard ----
+
+epoch, train loss, val loss, train jaccard, val jaccard
+1, 2.772, 1.938, 0.619, 0.6900088507543233
+2, 1.761, 1.923, 0.706, 0.6908309285782509
+3, 1.441, 2.071, 0.754, 0.6716352908284187
+4, 1.114, 2.269, 0.810, 0.6789704533154803
+5, 0.820, 2.581, 0.863, 0.6728314230112075
+
+======== End Berta Training and Testing ========

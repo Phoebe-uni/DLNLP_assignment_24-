@@ -1,0 +1,31 @@
+======== Bert Training and Testing ... ========
+Epoch 1/8 | train | Loss: 2.8501 | Jaccard: 0.6254
+Epoch 1/8 |  val  | Loss: 1.9492 | Jaccard: 0.6855
+Epoch 2/8 | train | Loss: 1.8030 | Jaccard: 0.7007
+Epoch 2/8 |  val  | Loss: 1.9166 | Jaccard: 0.6909
+Epoch 3/8 | train | Loss: 1.5283 | Jaccard: 0.7430
+Epoch 3/8 |  val  | Loss: 1.9942 | Jaccard: 0.6877
+Epoch 4/8 | train | Loss: 1.1826 | Jaccard: 0.7992
+Epoch 4/8 |  val  | Loss: 2.2471 | Jaccard: 0.6876
+Epoch 5/8 | train | Loss: 0.8669 | Jaccard: 0.8539
+Epoch 5/8 |  val  | Loss: 2.6874 | Jaccard: 0.6765
+Epoch 6/8 | train | Loss: 0.6552 | Jaccard: 0.8914
+Epoch 6/8 |  val  | Loss: 3.1556 | Jaccard: 0.6719
+Epoch 7/8 | train | Loss: 0.4952 | Jaccard: 0.9184
+Epoch 7/8 |  val  | Loss: 3.3076 | Jaccard: 0.6799
+Epoch 8/8 | train | Loss: 0.4196 | Jaccard: 0.9319
+Epoch 8/8 |  val  | Loss: 3.5431 | Jaccard: 0.6758
+
+---- Now save the train loss, val loss, train jaccard, val jaccard ----
+
+epoch, train loss, val loss, train jaccard, val jaccard
+1, 2.850, 1.949, 0.625, 0.6855436743853055
+2, 1.803, 1.917, 0.701, 0.6908797840268398
+3, 1.528, 1.994, 0.743, 0.6877327253437873
+4, 1.183, 2.247, 0.799, 0.6876323078284633
+5, 0.867, 2.687, 0.854, 0.6764788173914803
+6, 0.655, 3.156, 0.891, 0.6719428225041423
+7, 0.495, 3.308, 0.918, 0.6799199101346218
+8, 0.420, 3.543, 0.932, 0.6758426982699017
+
+======== End Berta Training and Testing ========
